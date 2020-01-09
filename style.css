@@ -1,0 +1,44 @@
+.spinner1 {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  border: 45px solid navy;
+  border-top-color: maroon;
+  animation: spin1 2s linear infinite;
+}
+@keyframes spin1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner2 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 45px solid transparent;
+  border-top-color: purple;
+  border-bottom-color: purple;
+  animation: spin2 1s ease infinite;
+}
+
+@keyframes spin2 {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.spinner3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-top: 10px solid;
+  animation: spin3 2s linear infinite;
+  background-image: url("https://bit.ly/2s4Im6f");
+}
+
+@keyframes spin3 {
+  to {
+    transform: rotate(-360deg);
+  }
+}
